@@ -70,6 +70,7 @@ public class ProjectViewMain implements CreateNotify, UpdateNotify {
 	 * Create the application.
 	 */
 	public ProjectViewMain(String userID, ProjectLoginFrame app) {
+		System.out.println("git test");
 		this.app = app;
 		this.userID = userID;
 		initialize();
